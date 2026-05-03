@@ -4,8 +4,8 @@
 while getopts "e:h" opt; do
     case $opt in
         e) exec 2>>"$OPTARG" ;;  # перенаправляние stderr 
-        h) echo "Используй: $0 [-e файл error]" && exit 0 ;;
-        *) echo "Неверный ключ" >&2 && exit 1 ;;
+        h) echo "использовать: $0 [-e файл error]" && exit 0 ;;
+        *) echo "неверный ключ" >&2 && exit 1 ;;
     esac
 done
 
