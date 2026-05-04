@@ -13,7 +13,7 @@ while stop_word != "stop":
         print(num1*num2)
     elif operator == "/":
         print(num1/num2)
-    print(" закончить - stop , продолжить 'no'")
+    print(" закончить - stop , продолжить 'next'")
     stop_word_extra = str(input())
     if stop_word_extra == "stop":
         break
