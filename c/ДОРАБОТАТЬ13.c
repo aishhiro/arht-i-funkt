@@ -43,6 +43,6 @@ int main()
     }
 
     converter(str_num, sys_num, &result);
-    printf("десятичное %d в выбраной системе\n", result);
+    printf("десятичное значение %d \n", result);
     return 0;
 } 
